@@ -1,8 +1,7 @@
 const container = document.getElementById("container");
-
-
 var gridbutton = document.getElementById("grid-button");
 var clearbutton = document.getElementById("clear-button");
+
 gridbutton.onclick = function() {
   let gridsize = prompt("insert grid size");
   var parentId = "container";
