@@ -4,7 +4,7 @@ var clearbutton = document.getElementById("clear-button");
 
 gridbutton.onclick = function () {
   let gridsize = prompt("insert grid size");
-  while (gridsize > 100) {
+  while (gridsize > 100 || gridsize < 1) {
     gridsize = prompt("insert grid size");
   }
 
